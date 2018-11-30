@@ -1,0 +1,1 @@
+/home/myphamxu/public_html/vendor/magento/theme-adminhtml-backend/web/js/theme.js

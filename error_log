@@ -1,0 +1,147 @@
+[08-Oct-2018 07:40:47 UTC] PHP Fatal error:  Uncaught Exception: User Error: Some transactions have not been committed or rolled back in /home/myphamxu/public_html/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php on line 3774 in /home/myphamxu/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(256, 'Some transactio...', '/home/myphamxu/...', 3774, Array)
+#1 /home/myphamxu/public_html/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(3774): trigger_error('Some transactio...', 256)
+#2 [internal function]: Magento\Framework\DB\Adapter\Pdo\Mysql->__destruct()
+#3 {main}
+  thrown in /home/myphamxu/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[08-Oct-2018 09:03:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Cli' not found in /home/myphamxu/public_html/bin/magento:31
+Stack trace:
+#0 {main}
+  thrown in /home/myphamxu/public_html/bin/magento on line 31
+[09-Oct-2018 04:26:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Cli' not found in /home/myphamxu/public_html/bin/magento:31
+Stack trace:
+#0 {main}
+  thrown in /home/myphamxu/public_html/bin/magento on line 31
+[09-Oct-2018 04:29:28 UTC] PHP Fatal error:  Uncaught Error: Class 'MagentoHackathon\Composer\Magento\MapParser' not found in /home/myphamxu/public_html/vendor/magento/magento-composer-installer/src/MagentoHackathon/Composer/Magento/Installer.php:758
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/magento/magento-composer-installer/src/MagentoHackathon/Composer/Magento/Installer.php(724): MagentoHackathon\Composer\Magento\Installer->getParser(Object(Composer\Package\CompletePackage))
+#1 phar:///opt/cpanel/composer/bin/composer/src/Composer/Installer/InstallationManager.php(211): MagentoHackathon\Composer\Magento\Installer->uninstall(Object(Composer\Repository\InstalledFilesystemRepository), Object(Composer\Package\CompletePackage))
+#2 phar:///opt/cpanel/composer/bin/composer/src/Composer/Installer/InstallationManager.php(160): Composer\Installer\InstallationManager->uninstall(Object(Composer\Repository\InstalledFilesystemRepository), Object(Composer\DependencyResolver\Operation\UninstallOperation))
+#3 phar:///opt/cpanel/composer/bin/composer/src/Compo in /home/myphamxu/public_html/vendor/magento/magento-composer-installer/src/MagentoHackathon/Composer/Magento/Installer.php on line 758
+[09-Oct-2018 04:42:07 UTC] PHP Warning:  require(/home/myphamxu/public_html/vendor/composer/../magento/framework/registration.php): failed to open stream: No such file or directory in /home/myphamxu/public_html/vendor/composer/autoload_real.php on line 71
+[09-Oct-2018 04:42:07 UTC] PHP Fatal error:  require(): Failed opening required '/home/myphamxu/public_html/vendor/composer/../magento/framework/registration.php' (include_path='/home/myphamxu/public_html/vendor/magento/zendframework1/library:/home/myphamxu/public_html/vendor/phpunit/php-file-iterator:/home/myphamxu/public_html/vendor/phpunit/phpunit:/home/myphamxu/public_html/vendor/symfony/yaml:.:/opt/alt/php70/usr/share/pear') in /home/myphamxu/public_html/vendor/composer/autoload_real.php on line 71
+[09-Oct-2018 04:43:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/index.php(22): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 04:43:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/index.php(22): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 04:43:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/index.php(22): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 04:43:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/index.php(22): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 04:43:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/bin/magento(14): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 04:44:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/bin/magento(14): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 04:44:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/index.php(22): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 04:44:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/index.php(22): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 04:46:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/bin/magento(14): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 04:51:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php:22
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/composer/autoload_real.php(66): require()
+#1 /home/myphamxu/public_html/vendor/composer/autoload_real.php(56): composerRequire899645e0c6f449ca8db3b7ef6e2d4223('6b5b87bda6fedcf...', '/home/myphamxu/...')
+#2 /home/myphamxu/public_html/vendor/autoload.php(7): ComposerAutoloaderInit899645e0c6f449ca8db3b7ef6e2d4223::getLoader()
+#3 /home/myphamxu/public_html/app/autoload.php(30): include('/home/myphamxu/...')
+#4 /home/myphamxu/public_html/app/bootstrap.php(30): require_once('/home/myphamxu/...')
+#5 /home/myphamxu/public_html/bin/magento(14): require('/home/myphamxu/...')
+#6 {main}
+  thrown in /home/myphamxu/public_html/vendor/mageplaza/module-core/registration.php on line 22
+[09-Oct-2018 05:45:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Setup\Mvc\Bootstrap\InitParamListener' not found in /home/myphamxu/public_html/setup/config/application.config.php:24
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/magento/framework/Console/Cli.php(57): require()
+#1 /home/myphamxu/public_html/bin/magento(22): Magento\Framework\Console\Cli->__construct('Magento CLI')
+#2 {main}
+  thrown in /home/myphamxu/public_html/setup/config/application.config.php on line 24
+[09-Oct-2018 05:47:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Setup\Mvc\Bootstrap\InitParamListener' not found in /home/myphamxu/public_html/setup/config/application.config.php:24
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/magento/framework/Console/Cli.php(57): require()
+#1 /home/myphamxu/public_html/bin/magento(22): Magento\Framework\Console\Cli->__construct('Magento CLI')
+#2 {main}
+  thrown in /home/myphamxu/public_html/setup/config/application.config.php on line 24
+[09-Oct-2018 05:53:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Setup\Mvc\Bootstrap\InitParamListener' not found in /home/myphamxu/public_html/setup/config/application.config.php:24
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/magento/framework/Console/Cli.php(57): require()
+#1 /home/myphamxu/public_html/bin/magento(22): Magento\Framework\Console\Cli->__construct('Magento CLI')
+#2 {main}
+  thrown in /home/myphamxu/public_html/setup/config/application.config.php on line 24
+[09-Oct-2018 05:57:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Setup\Mvc\Bootstrap\InitParamListener' not found in /home/myphamxu/public_html/setup/config/application.config.php:24
+Stack trace:
+#0 /home/myphamxu/public_html/vendor/magento/framework/Console/Cli.php(57): require()
+#1 /home/myphamxu/public_html/bin/magento(22): Magento\Framework\Console\Cli->__construct('Magento CLI')
+#2 {main}
+  thrown in /home/myphamxu/public_html/setup/config/application.config.php on line 24

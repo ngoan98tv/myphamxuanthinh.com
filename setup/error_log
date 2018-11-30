@@ -1,0 +1,8 @@
+[07-Oct-2018 13:46:23 UTC] PHP Fatal error:  Uncaught Exception: Notice: Undefined index: HTTP_USER_AGENT in /home/myphamxu/public_html/setup/src/Magento/Setup/Module.php on line 55 in /home/myphamxu/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 /home/myphamxu/public_html/setup/src/Magento/Setup/Module.php(55): Magento\Framework\App\ErrorHandler->handler(8, 'Undefined index...', '/home/myphamxu/...', 55, Array)
+#1 [internal function]: Magento\Setup\Module->onBootstrap(Object(Zend\Mvc\MvcEvent))
+#2 /home/myphamxu/public_html/vendor/zendframework/zend-eventmanager/src/EventManager.php(444): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#3 /home/myphamxu/public_html/vendor/zendframework/zend-eventmanager/src/EventManager.php(205): Zend\EventManager\EventManager->triggerListeners('bootstrap', Object(Zend\Mvc\MvcEvent), Array)
+#4 /home/myphamxu/public_html/vendor/zendframework/zend-mvc/src/Application.php(157): Zend\EventManager\EventManager->trigger('bootstrap', Object(Zend\Mvc\MvcEvent))
+#5 /home/myphamxu/public_html/vendo in /home/myphamxu/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61

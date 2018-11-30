@@ -1,0 +1,1 @@
+/home/myphamxu/public_html/lib/web/mage/mage.js
